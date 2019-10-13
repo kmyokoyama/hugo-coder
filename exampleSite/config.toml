@@ -81,25 +81,27 @@ disqusShortname = "yourdiscussshortname"
     [languages.en]
         languagename = "English"
 
-        [[languages.en.menu.main]]
-        name = "About"
-        weight = 1
-        url = "/about/"
+        [languages.en.menu]
 
-        [[languages.en.menu.main]]
-        name = "Blog"
-        weight = 2
-        url = "/posts/"
+            [[languages.en.menu.main]]
+            name = "About"
+            weight = 1
+            url = "about/"
 
-        [[languages.en.menu.main]]
-        name = "Projects"
-        weight = 3
-        url = "/projects/"
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
 
-        [[languages.en.menu.main]]
-        name = "Contact me"
-        weight = 5
-        url = "/contact/"
+            [[languages.en.menu.main]]
+            name = "Projects"
+            weight = 3
+            url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "Contact me"
+            weight = 5
+            url = "contact/"
 
 
     [languages.pt-br]
@@ -118,19 +120,19 @@ disqusShortname = "yourdiscussshortname"
             [[languages.pt-br.menu.main]]
             name = "Sobre"
             weight = 1
-            url = "/pt-br/about/"
+            url = "about/"
 
             [[languages.pt-br.menu.main]]
             name = "Blog"
             weight = 2
-            url = "/pt-br/posts/"
+            url = "posts/"
 
             [[languages.pt-br.menu.main]]
             name = "Projetos"
             weight = 3
-            url = "/pt-br/projects/"
+            url = "projects/"
 
             [[languages.pt-br.menu.main]]
             name = "Contato"
             weight = 5
-            url = "/pt-br/contact/"
+            url = "contact/"
